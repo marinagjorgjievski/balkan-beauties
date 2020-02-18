@@ -1,0 +1,100 @@
+
+<div class="topnav" id="myTopnav">
+  <a href="/" style="font-weight: bold">Home</a>
+  <div class="dropdownw3">
+    <button class="dropbtnw3"><i class="fa fa-globe"></i> Countries </button>
+    <div class="dropdown-contentw3">
+      <a href="{{ route('countries', { country: 'croatia'}) }}">Croatia</a>
+      <a href="{{ route('countries', { country: 'bosnia'}) }}">Bosnia and Herzegovina</a>
+      <a href="{{ route('countries', { country: 'slovenia'}) }}">Slovenia</a>
+      <a href="{{ route('countries', { country: 'serbia'}) }}">Serbia</a>
+      <a href="{{ route('countries', { country: 'montenegro'}) }}">Montenegro</a>
+      <a href="{{ route('countries', { country: 'macedonia'}) }}">Macedonia</a>
+      <a href="{{ route('countries', { country: 'romania'}) }}">Romania</a>
+      <a href="{{ route('countries', { country: 'bulgaria'}) }}">Bulgaria</a>
+      <a href="{{ route('countries', { country: 'albania'}) }}">Albania</a>
+      <a href="{{ route('countries', { country: 'greece'}) }}">Greece</a>
+    </div>
+  </div>
+  <div class="dropdownw3">
+    <button class="dropbtnw3"><i class="fa fa-flag"></i> Flags </button>
+    <div class="dropdown-contentw3">
+      <a href="{{ route('flags', { flag: 'croatia'}) }}">Croatia</a>
+      <a href="{{ route('flags', { flag: 'bosnia'}) }}">Bosnia and Herzegovina</a>
+      <a href="{{ route('flags', { flag: 'slovenia'}) }}">Slovenia</a>
+      <a href="{{ route('flags', { flag: 'serbia'}) }}">Serbia</a>
+      <a href="{{ route('flags', { flag: 'montenegro'}) }}">Montenegro</a>
+      <a href="{{ route('flags', { flag: 'macedonia'}) }}">Macedonia</a>
+      <a href="{{ route('flags', { flag: 'romania'}) }}">Romania</a>
+      <a href="{{ route('flags', { flag: 'bulgaria'}) }}">Bulgaria</a>
+      <a href="{{ route('flags', { flag: 'albania'}) }}">Albania</a>
+      <a href="{{ route('flags', { flag: 'greece'}) }}">Greece</a>
+    </div>
+  </div>
+  <div class="dropdownw3">
+    <button class="dropbtnw3"><i class="fa fa-university"></i> Capital City </button>
+    <div class="dropdown-contentw3">
+      <a href="{{ route('capitals', { capital: 'croatia'}) }}">Croatia</a>
+      <a href="{{ route('capitals', { capital: 'bosnia'}) }}">Bosnia and Herzegovina</a>
+      <a href="{{ route('capitals', { capital: 'slovenia'}) }}">Slovenia</a>
+      <a href="{{ route('capitals', { capital: 'serbia'}) }}">Serbia</a>
+      <a href="{{ route('capitals', { capital: 'montenegro'}) }}">Montenegro</a>
+      <a href="{{ route('capitals', { capital: 'macedonia'}) }}">Macedonia</a>
+      <a href="{{ route('capitals', { capital: 'romania'}) }}">Romania</a>
+      <a href="{{ route('capitals', { capital: 'bulgaria'}) }}">Bulgaria</a>
+      <a href="{{ route('capitals', { capital: 'albania'}) }}">Albania</a>
+      <a href="{{ route('capitals', { capital: 'greece'}) }}">Greece</a>
+    </div>
+  </div>
+  <div class="dropdownw3">
+    <button class="dropbtnw3"><i class="fa fa-camera"></i> What to Visit </button>
+    <div class="dropdown-contentw3">
+      <a href="{{ route('visits', { visit: 'croatia'}) }}">Croatia</a>
+      <a href="{{ route('visits', { visit: 'bosnia'}) }}">Bosnia and Herzegovina</a>
+      <a href="{{ route('visits', { visit: 'slovenia'}) }}">Slovenia</a>
+      <a href="{{ route('visits', { visit: 'serbia'}) }}">Serbia</a>
+      <a href="{{ route('visits', { visit: 'montenegro'}) }}">Montenegro</a>
+      <a href="{{ route('visits', { visit: 'macedonia'}) }}">Macedonia</a>
+      <a href="{{ route('visits', { visit: 'romania'}) }}">Romania</a>
+      <a href="{{ route('visits', { visit: 'bulgaria'}) }}">Bulgaria</a>
+      <a href="{{ route('visits', { visit: 'albania'}) }}">Albania</a>
+      <a href="{{ route('visits', { visit: 'greece'}) }}">Greece</a>
+    </div>
+  </div>
+  <div class="dropdownw3">
+    <button class="dropbtnw3"><i class="fa fa-cutlery"></i> What to Eat </button>
+    <div class="dropdown-contentw3">
+      <a href="{{ route('foods', { food: 'croatia'}) }}">Croatia</a>
+      <a href="{{ route('foods', { food: 'bosnia'}) }}">Bosnia and Herzegovina</a>
+      <a href="{{ route('foods', { food: 'slovenia'}) }}">Slovenia</a>
+      <a href="{{ route('foods', { food: 'serbia'}) }}">Serbia</a>
+      <a href="{{ route('foods', { food: 'montenegro'}) }}">Montenegro</a>
+      <a href="{{ route('foods', { food: 'macedonia'}) }}">Macedonia</a>
+      <a href="{{ route('foods', { food: 'romania'}) }}">Romania</a>
+      <a href="{{ route('foods', { food: 'bulgaria'}) }}">Bulgaria</a>
+      <a href="{{ route('foods', { food: 'albania'}) }}">Albania</a>
+      <a href="{{ route('foods', { food: 'greece'}) }}">Greece</a>
+    </div>
+  </div>
+  <div class="dropdownw3">
+    <button class="dropbtnw3"><i class="fa fa-glass"></i> Popular Drink </button>
+    <div class="dropdown-contentw3">
+      <a href="{{ route('drinks', { drink: 'croatia'}) }}">Croatia</a>
+      <a href="{{ route('drinks', { drink: 'bosnia'}) }}">Bosnia and Herzegovina</a>
+      <a href="{{ route('drinks', { drink: 'slovenia'}) }}">Slovenia</a>
+      <a href="{{ route('drinks', { drink: 'serbia'}) }}">Serbia</a>
+      <a href="{{ route('drinks', { drink: 'montenegro'}) }}">Montenegro</a>
+      <a href="{{ route('drinks', { drink: 'macedonia'}) }}">Macedonia</a>
+      <a href="{{ route('drinks', { drink: 'romania'}) }}">Romania</a>
+      <a href="{{ route('drinks', { drink: 'bulgaria'}) }}">Bulgaria</a>
+      <a href="{{ route('drinks', { drink: 'albania'}) }}">Albania</a>
+      <a href="{{ route('drinks', { drink: 'greece'}) }}">Greece</a>
+    </div>
+  </div>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>

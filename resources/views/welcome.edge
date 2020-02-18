@@ -1,0 +1,73 @@
+@layout('layout.default')
+
+@section('content')
+<div class="header row">
+  <img src="/logo.png" width="300px" height="100px" class="col-3">
+  <h1 class="col-6">Balkan Adventures</h1>
+  <h4 class="col-12" style="color: dodgerblue">Travel and adventure in the heart of the balkans!</h4>
+</div>
+<div class="main">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+      <li data-target="#demo" data-slide-to="6"></li>
+      <li data-target="#demo" data-slide-to="7"></li>
+      <li data-target="#demo" data-slide-to="8"></li>
+      <li data-target="#demo" data-slide-to="9"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner carousel-width">
+      <div class="carousel-item active">
+        <img src="/img-carousel/zagreb.jpg" alt="atina" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/sarajevo.jpg" alt="beograd" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/ljubljana.jpg" alt="bucharest" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/beograd.jpg" alt="ljubljana" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/podgorica.jpg" alt="podgorica" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/skopje.jpg" alt="sarajevo" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/bucharest.jpg" alt="skopje" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/sofia.jpg" alt="sofia" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/tirana.jpg" alt="tirana" width="1100" height="600">
+      </div>
+      <div class="carousel-item">
+        <img src="/img-carousel/atina.jpg" alt="zagreb" width="1100" height="600">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <div class="introduction">
+    <p><span><i class="fa fa-arrow-right" aria-hidden="true" style="color: #1b83ff"></i></span> Welcome to the Balkans! This cluster of countries in Southeastern Europe is made of up some of the most interesting and beautiful places to visit on the continent. However, which countries exactly are part of the Balkans is not exactly clear to many.</p>
+    <p><span><i class="fa fa-arrow-right" aria-hidden="true" style="color: #1b83ff"></i></span> We went with the widest definition of the Balkans there is, encompassing all of ex-Yugoslavia (Slovenia, Croatia, Montenegro, Macedonia, Bosnia & Herzegovina, Serbia, and Kosovo), as well as Albania, Romania, Bulgaria, and Greece. While some of these countries are not entirely on the Balkan peninsula, such as the Greek islands, we cover them on this site as we want to be the most helpful resource possible for Balkan travel on the internet.</p>
+    <p><span><i class="fa fa-arrow-right" aria-hidden="true" style="color: #1b83ff"></i></span> Here, you can read some of our general travel advice on traveling the Balkans, or you can navigate through the menu on top to discover each country in more depth.</p>
+  </div>
+</div>
+@endsection
