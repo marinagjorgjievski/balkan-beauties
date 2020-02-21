@@ -1,19 +1,21 @@
 @layout('layout.default')
 
 @section('content')
-<div class="drink">
+<div class="container">
   <div class="row">
     <img src="/img-widgets/drink.png" class="widgets">
     <h1 class="col header">Traditional drink in Bosnia</h1>
   </div>
-  <div class="drink-text">
-    <h3 style="color: #1b83ff">Slivovitz</h3>
-    <p>
-      - Slivovitz or Slivovitsa is a fruit brandy made from plums.  These fruit brandies are popular and tasty throughout the balkans (In Croatia, they were cherry and honey flavored) and called also Rakia. These are similar to Pálinka in Hungary and Pálenka Czech Republic and Slovakia.
-    </p>
-  </div>
-  <div class="drink-img">
-    <img src="/img-drinks/bosnia.jpg">
+  <h3 style="color: #1b83ff">Slivovitz</h3>
+  <div class="row">
+    <div class="col drink-img animated fadeInRightBig">
+      <img src="/img-drinks/bosnia.jpg">
+    </div>
+    <div class="col text animated fadeInLeftBig">
+      <p>
+        - Slivovitz or Slivovitsa is a fruit brandy made from plums.  These fruit brandies are popular and tasty throughout the balkans (In Croatia, they were cherry and honey flavored) and called also Rakia. These are similar to Pálinka in Hungary and Pálenka Czech Republic and Slovakia.
+      </p>
+    </div>
   </div>
 </div>
 @endsection

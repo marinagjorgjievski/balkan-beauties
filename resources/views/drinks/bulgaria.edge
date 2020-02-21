@@ -1,24 +1,24 @@
 @layout('layout.default')
 
 @section('content')
-<div class="drink">
+<div class="container">
   <div class="row">
     <img src="/img-widgets/drink.png" class="widgets">
     <h1 class="col header">Traditional drink in Bulgaria</h1>
   </div>
-  <div class="drink-text">
-    <h3 style="color: #1b83ff">Pelin</h3>
-    <p>
+  <h3 style="color: #1b83ff">Pelin</h3>
+  <div class="row">
+    <div class="col drink-img animated fadeInRightBig">
+      <img src="/img-drinks/bulgaria.jpg">
+    </div>
+    <div class="col text animated fadeInLeftBig">
+      <p>
       - Pelin is a bitter wine-derived drink. During the process of fermentation, the herb artemisia absinthium (in Bulgarian, pelin, hence the name of the drink) is added to the wine.
-    </p>
-  </div>
-  <div class="drink-img">
-    <img src="/img-drinks/bulgaria.jpg">
-  </div>
-  <div class="drink-text">
-    <p>
-      - Pelin can be made from both white and red wine. It is relatively hard to find on restaurant menus except at traditional restaurants, but if you have Bulgarian friends, you can ask them to find a bottle of homemade pelin for you.
-    </p>
+      </p>
+      <p>
+        - Pelin can be made from both white and red wine. It is relatively hard to find on restaurant menus except at traditional restaurants, but if you have Bulgarian friends, you can ask them to find a bottle of homemade pelin for you.
+      </p>
+    </div>
   </div>
 </div>
 @endsection

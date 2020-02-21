@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
 
 html, body {
-  height: 100%;
   width: 100%;
 }
 
@@ -171,6 +170,51 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.container {
+  text-align: center;
+  max-width: 950px;
+  margin-top: 50px;
+}
+
+p {
+  margin: 30px 0 30px 0;
+}
+
+.text {
+  text-align: left;
+}
+
+.capital-img img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
+}
+
+.country-img img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
+}
+
+.drink-img img {
+  width: 500px;
+  height: 500px;
+  margin: 20px 0px 20px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
+}
+
+.flag-img img {
+  width: 1000px;
+  height: 500px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
+}
+
+.visit-img img {
+  width: 700px;
+  height: 300px;
+  margin: 20px 0px 20px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
+}
+
+
  /*Make the image fully responsive */
 .carousel-inner img {
   width: 1100px;
@@ -207,102 +251,9 @@ footer {
   margin-bottom: 20px;
 }
 
-.country {
-  text-align: center;
-  margin: 50px;
-}
-
-.country-text {
-  text-align: left;
-  margin-left: 180px;
-  margin-right: 180px;
-}
-
-.country-img img {
-  width: 900px;
-  height: 500px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
-}
-
-.flag {
-  text-align: center;
-  margin: 50px;
-}
-
-.flag-text {
-  text-align: left;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
-.flag-img img {
-  margin-top: 50px;
-  width: 800px;
-  height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
-}
-
-.capital {
-  text-align: center;
-  margin: 50px;
-}
-
-.capital-text {
-  text-align: left;
-  margin-left: 180px;
-  margin-right: 180px;
-}
-
-.capital-img img {
-  width: 929px;
-  height: auto;
-  margin: 20px 0px 20px 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
-}
-
-.visit {
-  text-align: center;
-  margin: 50px;
-}
-
-.visit-text {
-  text-align: left;
-  margin: auto;
-}
-
-.visit-img img {
-  width: 700px;
-  height: 300px;
-  margin: 20px 0px 20px 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
-}
-
-.drink {
-  text-align: center;
-  margin: 50px;
-}
-
-.drink-text {
-  text-align: left;
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-top: 50px;
-}
-
-.drink-img img {
-  width: 500px;
-  height: auto;
-  margin: 20px 0px 20px 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
-}
-
 b {
   font-weight: bold;
   color: #1b83ff;
-}
-
-.container {
-  margin-top: 50px;
 }
 
 .widgets {
@@ -330,4 +281,12 @@ b {
 
 #myBtn:hover {
   background-color: #1b83ff;;
+}
+
+.animate-scrollLeft {
+  visibility: hidden;
+}
+
+.animate-scrollRight {
+  visibility: hidden;
 }

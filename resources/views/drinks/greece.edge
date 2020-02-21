@@ -1,24 +1,24 @@
 @layout('layout.default')
 
 @section('content')
-<div class="drink">
+<div class="container">
   <div class="row">
     <img src="/img-widgets/drink.png" class="widgets">
     <h1 class="col header">Traditional drink in Greece</h1>
   </div>
-  <div class="drink-text">
-    <h3 style="color: #1b83ff">Ouzo</h3>
-    <p>
-      - Liquor is popularly consumed in Greece and it is one of the most enjoyable drinks you will get. The most popular liquor in Greece is “Ouzo.” Ouzo is a dry type of aperitif that is made of anise flavor. Ouzo is a type of brandy and has a wonderful, strong taste and a very nice flavor that is a favorite amongst all liquor lovers.
-    </p>
-  </div>
-  <div class="drink-img">
-    <img src="/img-drinks/greece.jpg">
-  </div>
-  <div class="drink-text">
-    <p>
-      -  Ouzo is made from aniseed, and it is the pride of Greece. This liquor is served with minimal plates and garnished with appetizers comprising of olives, feta cheese, and mezedakia. Greek has been awarded the right to label this liquor a Greek product.
-    </p>
+  <h3 style="color: #1b83ff">Ouzo</h3>
+  <div class="row">
+    <div class="col drink-img animated fadeInRightBig">
+      <img src="/img-drinks/greece.jpg">
+    </div>
+    <div class="col text animated fadeInLeftBig">
+      <p>
+        - Liquor is popularly consumed in Greece and it is one of the most enjoyable drinks you will get. The most popular liquor in Greece is “Ouzo.” Ouzo is a dry type of aperitif that is made of anise flavor. Ouzo is a type of brandy and has a wonderful, strong taste and a very nice flavor that is a favorite amongst all liquor lovers.
+      </p>
+      <p>
+        - Ouzo is made from aniseed, and it is the pride of Greece. This liquor is served with minimal plates and garnished with appetizers comprising of olives, feta cheese, and mezedakia. Greek has been awarded the right to label this liquor a Greek product.
+      </p>
+    </div>
   </div>
 </div>
 @endsection

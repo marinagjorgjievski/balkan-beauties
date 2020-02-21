@@ -1,19 +1,21 @@
 @layout('layout.default')
 
 @section('content')
-<div class="drink">
+<div class="container">
   <div class="row">
     <img src="/img-widgets/drink.png" class="widgets">
     <h1 class="col header">Traditional drink in Serbia</h1>
   </div>
-  <div class="drink-text">
-    <h3 style="color: #1b83ff">Pelinkovac</h3>
-    <p>
+  <h3 style="color: #1b83ff">Pelinkovac</h3>
+  <div class="row">
+    <div class="col drink-img animated fadeInRightBig">
+      <img src="/img-drinks/serbia.jpg">
+    </div>
+    <div class="col text animated fadeInLeftBig">
+      <p>
       - Pelinkovac is a bitter liqueur based on wormwood (pelin). The alcohol content is 28%-35% by volume. It has a very bitter taste, resembling that of Jägermeister.
-    </p>
-  </div>
-  <div class="drink-img">
-    <img src="/img-drinks/serbia.jpg">
+      </p>
+    </div>
   </div>
 </div>
 @endsection

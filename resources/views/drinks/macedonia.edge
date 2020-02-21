@@ -1,24 +1,24 @@
 @layout('layout.default')
 
 @section('content')
-<div class="drink">
+<div class="container">
   <div class="row">
     <img src="/img-widgets/drink.png" class="widgets">
     <h1 class="col header">Traditional drink in Macedonia</h1>
   </div>
-  <div class="drink-text">
-    <h3 style="color: #1b83ff">Lozova Rakija </h3>
-    <p>
-      - A cup of homemade rakija, a cure for everything! Rakija or Macedonian brandy comes under the category of natural medicine, a secretly popular weapon against many diseases, together with olive oil, garlic, honey and other local products..so they say ... For stomachaches, colds, flu and similar illnesses, they say there is no better medicine than rakija. It will destroy all bacteria and viruses.
-    </p>
-  </div>
-  <div class="drink-img">
-    <img src="/img-drinks/macedonia.jpg">
-  </div>
-  <div class="drink-text">
-    <p>
-      -  Also recommended for muscle pain, not to mention for disinfection of wounds. Usually, drank as an aperitif, for a morning wake-up, with cheese and prosciutto, before and after lunch, facilitates sleep, to forget or to cheer. However, they say that who doesn't drink homemade rakia, hasn't been drinking rakija at all!
-    </p>
+  <h3 style="color: #1b83ff">Lozova Rakija </h3>
+  <div class="row">
+    <div class="col drink-img animated fadeInRightBig">
+      <img src="/img-drinks/macedonia.jpg">
+    </div>
+    <div class="col text animated fadeInLeftBig">
+      <p>
+        - A cup of homemade rakija, a cure for everything! Rakija or Macedonian brandy comes under the category of natural medicine, a secretly popular weapon against many diseases, together with olive oil, garlic, honey and other local products..so they say ... For stomachaches, colds, flu and similar illnesses, they say there is no better medicine than rakija. It will destroy all bacteria and viruses.
+      </p>
+      <p>
+        - Also recommended for muscle pain, not to mention for disinfection of wounds. Usually, drank as an aperitif, for a morning wake-up, with cheese and prosciutto, before and after lunch, facilitates sleep, to forget or to cheer. However, they say that who doesn't drink homemade rakia, hasn't been drinking rakija at all!
+      </p>
+    </div>
   </div>
 </div>
 @endsection

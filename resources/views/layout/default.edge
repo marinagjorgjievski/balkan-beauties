@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8" />
   <title>Balkan Beauties</title>
@@ -41,6 +42,23 @@
       } else {
         mybutton.style.display = "none";
       }
+      var animateScrollElemsLeft = document.querySelectorAll('.animate-scrollLeft');
+      var animateScrollElemsRight = document.querySelectorAll('.animate-scrollRight');
+      var animateScrollElems = document.querySelectorAll('.animate-scroll');
+
+      animateScrollElemsLeft.forEach(function(elem) {
+        if (window.scrollY + 350 >= elem.offsetTop){
+          elem.classList.remove('animate-scrollLeft');
+          elem.classList.add('animated', 'fadeInLeftBig');
+        }
+      });
+
+      animateScrollElemsRight.forEach(function(elem) {
+        if (window.scrollY + 350  >= elem.offsetTop) {
+          elem.classList.remove('animate-scrollRight');
+          elem.classList.add('animated', 'fadeInRightBig');
+        }
+      })
     }
 
     // When the user clicks on the button, scroll to the top of the document
