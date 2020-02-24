@@ -80,7 +80,7 @@ body {
 }
 
 .dropdown-contentw3 a:hover {
-  background-color: #58ccff;;
+  background-color: #58ccff;
   color: #000000;
   visibility: visible;
 }
@@ -177,19 +177,18 @@ body {
   margin-top: 50px;
 }
 
-p {
-  margin: 30px 0 30px 0;
-}
-
 .text {
   text-align: left;
+  margin-top: 30px;
 }
 
 .capital-img img {
+  margin: 20px 0px 20px 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
 }
 
 .country-img img {
+  margin: 20px 0px 20px 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.31), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
 }
 
